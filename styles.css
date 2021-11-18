@@ -1,25 +1,15 @@
-table {
-  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
-  margin: 3rem;
-  font-family: sans-serif;
-  border-collapse: collapse;
-}
-caption {
-  font-size: 20px;
-  margin-bottom: 1rem;
-}
-thead {
-  background-color: #555;
-  color: #fff;
+/* Застосується до всіх тегів з класом title */
+.title {
+  font-weight: 800;
 }
 
-td,
-th {
-  padding: 0.5rem 1rem;
-  border: 1px solid #888;
-  text-align: center;
+/* Застосується до всіх тегів з класом text */
+.text {
+  color: rgb(9, 255, 0);
+  font-size: 300px;
 }
 
-td[colspan] {
-  background-color: #eee;
+/* Застосується до всіх тегів з класом link */
+.link {
+  text-decoration: none;
 }
