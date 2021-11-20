@@ -1,15 +1,3 @@
-/* Застосується до всіх тегів з класом title */
-.title {
-  font-weight: 800;
-}
-
-/* Застосується до всіх тегів з класом text */
-.text {
-  color: rgb(9, 255, 0);
-  font-size: 300px;
-}
-
-/* Застосується до всіх тегів з класом link */
-.link {
-  text-decoration: none;
+body {
+  background-color: blue;
 }
